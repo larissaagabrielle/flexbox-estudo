@@ -46,3 +46,17 @@ body {
 #bloco-3 {
     background-color: lightpink;
 }
+
+.link {
+    background-color: rgba(144, 238, 144, 0.555);
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+a {
+    color: rgba(128, 128, 128, 0.918);
+    text-decoration: none;
+}

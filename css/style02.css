@@ -47,6 +47,7 @@ body {
 #align5 {
     align-items: stretch;
     height: 100px;
+    margin-bottom: 50px;
 }
 
 .tamanho2 {
@@ -71,3 +72,16 @@ body {
     font-size: 1.5rem;
 }
 
+.link {
+    background-color: rgba(144, 238, 144, 0.555);
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgba(128, 128, 128, 0.918);
+    text-decoration: none;
+}
