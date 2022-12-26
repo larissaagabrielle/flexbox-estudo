@@ -1,0 +1,21 @@
+h1 {
+    margin: 20px;
+    font-size: 4rem;
+    text-shadow: 4px 4px 7px #000000ad;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    flex: 1;
+    margin: 20px;
+    font-size: 4rem;
+    padding: 20px;
+    box-shadow: 3px 4px 7px 1px #000000ad;
+    background-color: #e2c3f385;
+}
