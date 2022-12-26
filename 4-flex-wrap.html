@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/4-wrap.css">
+    <title>Flex-wrap</title>
+</head>
+<body>
+    <main class="conteudo">
+        <h1>Flex-wrap</h1>
+        <p>Serve para decidir se os elementos irão para a linha de baixo quando chegarem no final ou ficarão espremidos. Obs: necessário ver em telas <= 636px; </p>
+
+        <h4>Nowrap</h4>
+        <p>Não permite a quebra de linha</p>
+        <div class="container-conteudo">
+            <div id="bloco-1" class="caract-bloco">1</div>
+            <div id="bloco-2" class="caract-bloco">2</div>
+            <div id="bloco-3" class="caract-bloco">3</div>
+            <div id="bloco-1" class="caract-bloco">4</div>
+            <div id="bloco-2" class="caract-bloco">5</div>
+            <div id="bloco-3" class="caract-bloco">6</div>
+            <div id="bloco-1" class="caract-bloco">7</div>
+            <div id="bloco-2" class="caract-bloco">8</div>
+            <div id="bloco-3" class="caract-bloco">9</div>
+            <div id="bloco-1" class="caract-bloco">10</div>
+            <div id="bloco-2" class="caract-bloco">11</div>
+            <div id="bloco-3" class="caract-bloco">12</div>
+        </div>
+        <h4>Wrap</h4>
+        <p>Permite a quebra de linha</p>
+        <div class="container-conteudo wrap">
+            <div id="bloco-1" class="caract-bloco">1</div>
+            <div id="bloco-2" class="caract-bloco">2</div>
+            <div id="bloco-3" class="caract-bloco">3</div>
+            <div id="bloco-1" class="caract-bloco">4</div>
+            <div id="bloco-2" class="caract-bloco">5</div>
+            <div id="bloco-3" class="caract-bloco">6</div>
+            <div id="bloco-1" class="caract-bloco">7</div>
+            <div id="bloco-2" class="caract-bloco">8</div>
+            <div id="bloco-3" class="caract-bloco">9</div>
+            <div id="bloco-1" class="caract-bloco">10</div>
+            <div id="bloco-2" class="caract-bloco">11</div>
+            <div id="bloco-3" class="caract-bloco">12</div>
+        </div>
+        <h4>Wrap-reverse</h4>
+        <p>Quebra de linha para cima</p>
+        <div class="container-conteudo reverse">
+            <div id="bloco-1" class="caract-bloco">1</div>
+            <div id="bloco-2" class="caract-bloco">2</div>
+            <div id="bloco-3" class="caract-bloco">3</div>
+            <div id="bloco-1" class="caract-bloco">4</div>
+            <div id="bloco-2" class="caract-bloco">5</div>
+            <div id="bloco-3" class="caract-bloco">6</div>
+            <div id="bloco-1" class="caract-bloco">7</div>
+            <div id="bloco-2" class="caract-bloco">8</div>
+            <div id="bloco-3" class="caract-bloco">9</div>
+            <div id="bloco-1" class="caract-bloco">10</div>
+            <div id="bloco-2" class="caract-bloco">11</div>
+            <div id="bloco-3" class="caract-bloco">12</div>
+        </div>
+        <h4>Flex-floap</h4>
+        <p>Possibilita juntar as propriedades flex-diretion e flex-wrap</p>
+            <code>flex-flow: row wrap;</code>
+        <div class="container-conteudo flow">
+            <div id="bloco-1" class="caract-bloco">1</div>
+            <div id="bloco-2" class="caract-bloco">2</div>
+            <div id="bloco-3" class="caract-bloco">3</div>
+            <div id="bloco-1" class="caract-bloco">4</div>
+            <div id="bloco-2" class="caract-bloco">5</div>
+            <div id="bloco-3" class="caract-bloco">6</div>
+            <div id="bloco-1" class="caract-bloco">7</div>
+            <div id="bloco-2" class="caract-bloco">8</div>
+            <div id="bloco-3" class="caract-bloco">9</div>
+            <div id="bloco-1" class="caract-bloco">10</div>
+            <div id="bloco-2" class="caract-bloco">11</div>
+            <div id="bloco-3" class="caract-bloco">12</div>
+        </div>
+        <div class="link"><a href="5-align-content.html">Próximo</a></div>
+        <div class="link margin-link2"><a href="0-indice.html">Índice</a></div>
+    </main>
+    
+</body>
+</html>
