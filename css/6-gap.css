@@ -1,0 +1,31 @@
+h4 {
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+main.conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-conteudo {
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.gap {
+    gap: 10px 30px;
+}
+
+.row {
+    row-gap: 50px;
+}
+
+.column {
+    column-gap: 50px;
+}
