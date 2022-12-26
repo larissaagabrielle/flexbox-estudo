@@ -49,9 +49,12 @@ p {
     background-color: #76A0B3;
     padding: 10px;
     border-radius: 6px;
+    margin: 40px auto 20px;
     width: 150px;
-    margin: 35px auto 5px;
     box-shadow: 3px 4px 7px 1px #000000ad;
+}
+.margin-link2 {
+    margin: 0px auto 30px;
 }
 
 a {
