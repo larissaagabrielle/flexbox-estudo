@@ -13,6 +13,17 @@ main.conteudo {
     text-align: center;
 }
 
+main.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.espaco {
+    height: 140px;
+    width: 500px;
+}
+
 .container-geral {
     display: flex;
     align-items: center;

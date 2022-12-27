@@ -6,13 +6,6 @@ p {
     margin-bottom: 0px;
 }
 
-main.conteudo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .container-conteudo {
     flex-wrap: wrap;
     max-width: 500px;

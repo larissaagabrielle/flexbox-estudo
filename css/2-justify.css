@@ -1,7 +1,5 @@
-.container {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+.container-conteudo {
+    align-items: center;
 }
 
 .justify1 {
