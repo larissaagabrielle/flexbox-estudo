@@ -26,14 +26,14 @@
     border-radius: 5px;
 }
 
-#bloco-1 {
+.bloco-1 {
     font-size: 0.5rem;
 }
 
-#bloco-2 {
+.bloco-2 {
     font-size: 1rem;
 }
 
-#bloco-3 {
+.bloco-3 {
     font-size: 1.5rem;
 }

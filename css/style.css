@@ -74,15 +74,15 @@ code {
     border-radius: 5px;
 }
 
-#bloco-1 {
+.bloco-1 {
     background-color: lightblue;
 }
 
-#bloco-2 {
+.bloco-2 {
     background-color: lightsteelblue;
 }
 
-#bloco-3 {
+.bloco-3 {
     background-color: lightpink;
 }
 
