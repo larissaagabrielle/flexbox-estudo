@@ -22,7 +22,7 @@ main.conteudo2 {
     width: 500px;
 }
 
-.container-geral {
+.container-introducao {
     background-image: linear-gradient(to bottom, lightyellow, lightpink, lightsteelblue, lightblue);
     min-height: 100vh;
     display: flex;
