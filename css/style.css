@@ -17,6 +17,7 @@ body {
 }
 
 .assunto-container {
+    padding: 0px 25px;
     background-color: lightyellow;
     text-align: center;
     display: flex;
@@ -25,6 +26,14 @@ body {
 
 .container2 {
     align-items: center;
+}
+
+.assunto-items {
+    padding: 0px 25px;
+    background-color: #e1ffe2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .espaco {
