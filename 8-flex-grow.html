@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/7-order.css"> -->
+    <title>Order</title>
+</head>
+<body>
+    <main class="assunto-items conteudo2 ">
+        <h1>Order</h1>
+        <p>Muda a ordem dos itens. Por padão, o valor do order é 0, com isso, ele segue a ordem que foi declarada na HTML. Quando se declara valores para essa propriedade, há a mudança de ordem.</p>
+        <h4>Order: 0;</h4>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco">1</div>
+            <div class="bloco-2 caract-bloco">2</div>
+            <div class="bloco-3 caract-bloco">3</div>
+        </div>
+        <h4>Order: 1;</h4>
+        <p class="definicao">Quando coloca valor 1 para a propriedade, o item ficará atrás de todos os elementos com order: 0; Como é o caso do <span>bloco 2</span>, com order: 1; ele passa a ficar trás dos outros elemetos com order: 0;</p>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco">1</div>
+            <div class="bloco-2 caract-bloco order1 destaque">2</div>
+            <div class="bloco-3 caract-bloco">3</div>
+        </div>
+        <h4>Order: -1;</h4>
+        <p class="definicao">Com valores negativos, o elemento passa a ficar à frente dos elementos com valores positivos. Como é o caso do <span>bloco 3</span>.</p>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco">1</div>
+            <div class="bloco-2 caract-bloco">2</div>
+            <div class="bloco-3 caract-bloco order2 destaque">3</div>
+        </div>
+        <h4><code>Order: -1 0 1</code></h4>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco">1</div>
+            <div class="bloco-2 caract-bloco order1 destaque">2</div>
+            <div class="bloco-3 caract-bloco order2 destaque">3</div>
+        </div>
+        <div class="link"><a href="8-flex-grow.html">Próximo</a></div>
+        <div class="link margin-link2"><a href="0-indice.html">Índice</a></div>
+    </main>
+</body>
+</html>
