@@ -7,3 +7,10 @@
     flex-grow: 1;
 }
 
+.grow2 {
+    flex-grow: 2;
+}
+
+p {
+    margin-bottom: 0px;
+}
