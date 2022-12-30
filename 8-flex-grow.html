@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/7-order.css"> -->
-    <title>Order</title>
+    <link rel="stylesheet" href="css/8-flex-grow.css">
+    <title>Flex-grow</title>
 </head>
 <body>
     <main class="assunto-items conteudo2 ">
-        <h1>Order</h1>
-        <p>Muda a ordem dos itens. Por padão, o valor do order é 0, com isso, ele segue a ordem que foi declarada na HTML. Quando se declara valores para essa propriedade, há a mudança de ordem.</p>
-        <h4>Order: 0;</h4>
+        <h1>Flex-grow</h1>
+        <p>Propriedade que permite que o elemento cresca o quanto necessário. Por padrão, os itens apresentam flex-grow: 0, ou seja, não são permitidos a crescer.</p>
+        <h4>Flex-grow: 1;</h4>
+        <p class="definicao">Quanse coloca valor 1, o item cresce de forma proporcional ao espaço que está localizado. Como é o caso do <span>bloco 11</span>.</p>
         <div class="container-conteudo espaco">
             <div class="bloco-1 caract-bloco">1</div>
             <div class="bloco-2 caract-bloco">2</div>
             <div class="bloco-3 caract-bloco">3</div>
+            <div class="bloco-1 caract-bloco">4</div>
+            <div class="bloco-2 caract-bloco">5</div>
+            <div class="bloco-3 caract-bloco">6</div>
+            <div class="bloco-1 caract-bloco">7</div>
+            <div class="bloco-2 caract-bloco">8</div>
+            <div class="bloco-3 caract-bloco">9</div>
+            <div class="bloco-1 caract-bloco">10</div>
+            <div class="bloco-2 caract-bloco grow1 destaque">11</div>
+            <div class="bloco-3 caract-bloco">12</div>
         </div>
         <h4>Order: 1;</h4>
         <p class="definicao">Quando coloca valor 1 para a propriedade, o item ficará atrás de todos os elementos com order: 0; Como é o caso do <span>bloco 2</span>, com order: 1; ele passa a ficar trás dos outros elemetos com order: 0;</p>

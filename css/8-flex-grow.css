@@ -1,0 +1,9 @@
+.container-conteudo {
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+

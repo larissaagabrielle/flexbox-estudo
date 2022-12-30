@@ -39,7 +39,7 @@ body {
 }
 
 .espaco {
-    height: 140px;
+    height: 150px;
     width: 500px;
 }
 
@@ -65,6 +65,12 @@ p {
 
 p.definicao {
     width: 50%;
+}
+
+.destaque {
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px black solid;
 }
 
 code {
