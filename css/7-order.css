@@ -7,14 +7,16 @@ span {
     text-decoration: underline;
 }
 
-.order1 {
-    order: 1;
+.destaque {
     font-weight: bold;
     font-size: 1.2rem;
+    border: 1px black solid;
+}
+
+.order1 {
+    order: 1;
 }
 
 .order2 {
     order: -1;
-    font-weight: bold;
-    font-size: 1.2rem;
 }
