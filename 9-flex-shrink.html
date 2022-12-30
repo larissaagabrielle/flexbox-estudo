@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/9-shrink.css">
+    <title>Flex-shrink</title>
+</head>
+<body>
+    <main class="assunto-items">
+        <h1>Flex-shrink</h1>
+        <p>Propriedade que permite que o elemento diminua o quanto necessário para caber na tag pai. É necessário que o <mark>flex-wrap</mark> esteja <span>nowrap</span>, para que não haja quabra de linha. Por padrão, apresetam <mark>flex-shrink: 1;</mark></p>
+        <h4>Flex-shrink: 0;</h4>
+        <p>Não permite que dimunua.</p>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco">1</div>
+            <div class="bloco-2 caract-bloco">2</div>
+            <div class="bloco-3 caract-bloco shrink0 destaque">3</div>
+        </div>
+        <h4>Flex-shrink: 1;</h4>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco">1</div>
+            <div class="bloco-2 caract-bloco">2</div>
+            <div class="bloco-3 caract-bloco">3</div>
+        </div>
+        <h4>Flex-shrink: 2;</h4>
+        <p class="definicao">Quando se coloca valor 2, o espaço que ele diminuirá será 2x maior que o elemento com flex-shrink: 1; Nota-se que o <span>bloco 3</span> dimunuiu 2x mais que os outros blocos.</p>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco">1</div>
+            <div class="bloco-2 caract-bloco">2</div>
+            <div class="bloco-3 caract-bloco shrink2 destaque">3</div>
+        </div>
+        <p class="margin">Ambas as caixas apresentam 50px de width como padrão.</p>
+        <p class="margin"><span>Bloco 3:</span> 50px - 29px = <mark>21px</mark></p>
+        <p class="margin"><span>Bloco 1 e 2:</span> 50px - 39.5px = <mark>10.5px</mark></p>
+        <p class="margin">Nota-se que o espaço que o <span>bloco 3</span> diminuiu, menos o tamanho original, é proporcional ao <span>bloco 1 e 2</span>.</p>
+        <div class="link"><a href="10-flex-basis.html">Próximo</a></div>
+        <div class="link margin-link2"><a href="0-indice.html">Índice</a></div>
+    </main>
+</body>
+</html>
