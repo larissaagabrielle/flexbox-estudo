@@ -29,11 +29,14 @@ body {
 }
 
 .assunto-items {
+    min-height: 100vh;
     padding: 0px 25px;
     background-color: #e1ffe2;
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .espaco {
