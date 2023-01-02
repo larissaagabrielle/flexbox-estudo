@@ -16,28 +16,21 @@ body {
     text-align: center;
 }
 
-.assunto-container {
+.assunto {
     padding: 0px 25px;
-    background-color: lightyellow;
+    min-height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container-justify {
-    align-items: stretch;
-    /*Caracteristica somente da pág. justify-content*/
-} 
+.background-container {
+    background-color: lightyellow;
+}
 
-.assunto-items {
-    min-height: 100vh;
-    padding: 0px 25px;
+.background-items {
     background-color: #e1ffe2;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center
 }
 
 .espaco {

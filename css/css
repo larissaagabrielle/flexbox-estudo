@@ -1,0 +1,19 @@
+.assunto {
+    padding: 0px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroud-container {
+    background-color: lightyellow;
+}
+
+.backgroud-items {
+    background-color: #e1ffe2;
+}
+.container-justify {
+    align-items: stretch;
+    /*Caracteristica somente da pág. justify-content*/
+} 
