@@ -11,7 +11,7 @@
 <body>
     <main class="assunto-items conteudo2 ">
         <h1>Flex-grow</h1>
-        <p>Propriedade que permite que o elemento cresca o quanto necessário. Por padrão, os itens apresentam flex-grow: 0, ou seja, não são permitidos de crescer.</p>
+        <p>Propriedade que permite que o elemento cresca o quanto necessário. Por padrão, os itens apresentam <mark><code>flex-grow: 0;</code></mark> ou seja, não são permitidos de crescer.</p>
 
         <h4>Flex-grow: 0;</h4>
         <div class="container-conteudo espaco">
@@ -29,7 +29,7 @@
             <div class="bloco-3 caract-bloco">12</div>
         </div>
         <h4>Flex-grow: 1;</h4>
-        <p class="definicao">Quando se coloca valor 1, o item cresce de forma proporcional ao espaço que está localizado. Como é o caso do <span>bloco 11</span>.</p>
+        <p class="definicao">Quando coloca valor 1, o item cresce de forma proporcional ao espaço que está localizado. Como é o caso do <span>bloco 11</span>.</p>
         <div class="container-conteudo espaco">
             <div class="bloco-1 caract-bloco">1</div>
             <div class="bloco-2 caract-bloco">2</div>
@@ -45,7 +45,7 @@
             <div class="bloco-3 caract-bloco">12</div>
         </div>
         <h4>Flex-grow: 2;</h4>
-        <p class="definicao">Quando se coloca valor 2, o item cresce 2x mais que o item com <code>flex-grow: 1;</code> mas não quer dizer que ele terá o dobro do tamanho. Altera-se somente o espaço de crescimento. Nota-se que o <span>bloco 12</span> cresceu mais que o <span>bloco 11</span> mas não tem o dobro do seu tamanho.</p>
+        <p class="definicao">Quando coloca valor 2 ou mais, o item cresce 2x ou Xx mais que o item com <code>flex-grow: 1;</code> mas não quer dizer que ele terá o dobro do tamanho. Altera-se somente o espaço de crescimento. Nota-se que o <span>bloco 12</span> cresceu mais que o <span>bloco 11</span> mas não tem o dobro do seu tamanho.</p>
         <div class="container-conteudo espaco">
             <div class="bloco-1 caract-bloco">1</div>
             <div class="bloco-2 caract-bloco">2</div>
@@ -63,7 +63,7 @@
         <p class="margin">Ambas as caixas apresentam 50px de width como padrão.</p>
         <p class="margin"><span>Bloco 12:</span> 274px - 50px = <mark>224px</mark></p>
         <p class="margin"><span>Bloco 11:</span> 162px - 50px = <mark>112px</mark></p>
-        <p class="margin">Nota-se que o espaço que o <span>bloco 12</span> cresceu, menos o tamanho original, é proporcional ao <span>bloco 11</span>.</p>
+        <p class="margin">Nota-se que o espaço que o <span>bloco 12</span> cresceu, menos o tamanho original, é proporcional ao <span>bloco 11</span>, mas o tamnho não é o dobro (162x2 = 324).</p>
         <div class="link"><a href="9-flex-shrink.html">Próximo</a></div>
         <div class="link margin-link2"><a href="0-indice.html">Índice</a></div>
     </main>
