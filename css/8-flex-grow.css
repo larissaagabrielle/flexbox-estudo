@@ -11,6 +11,6 @@
     flex-grow: 2;
 }
 
-p {
+p.margin {
     margin-bottom: 0px;
 }
