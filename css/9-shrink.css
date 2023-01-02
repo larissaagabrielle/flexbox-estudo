@@ -3,10 +3,6 @@
     height: 100px;
 }
 
-p.margin {
-    margin-bottom: 0px;
-}
-
 .shrink0 {
     flex-shrink: 0;
 }

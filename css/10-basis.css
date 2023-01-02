@@ -12,14 +12,6 @@ span {
     background-color: yellow;
 }
 
-p.margin {
-    margin-bottom: 0px;
-}
-
-code {
-    margin-bottom: 30px;
-}
-
 .basis-auto {
     flex-basis: auto;
 }

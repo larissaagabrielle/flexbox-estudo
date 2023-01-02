@@ -1,11 +1,3 @@
-h4 {
-    margin-top: 30px;
-}
-
-p {
-    margin-bottom: 0px;
-}
-
 .container-conteudo {
     flex-wrap: wrap;
     max-width: 500px;

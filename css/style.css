@@ -59,8 +59,11 @@ h4 {
 }
 
 p {
-    margin-bottom: 30px;
     font-size: 1.3rem;
+}
+
+p.sub-title {
+    margin-bottom: 30px;
 }
 
 p.definicao {
@@ -120,6 +123,7 @@ span {
     width: 150px;
     box-shadow: 3px 4px 7px 1px #000000ad;
 }
+
 .margin-link2 {
     margin: 0px auto 30px;
 }
