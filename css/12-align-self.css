@@ -11,6 +11,12 @@
     font-size: 2rem;
 }
 
+.font-base {
+    align-self: baseline;
+    font-size: 0.5rem;
+}
+
+
 .end {
     align-self: flex-end;
 }
