@@ -23,11 +23,11 @@ li > a {
     text-align: center;
 }
 
-a:hover {
+ol a:hover {
     color: rgb(157, 71, 238);
     font-weight: bold;
 }
 
-a:visited {
+ol a:visited {
     color: rgb(63, 63, 63);
 }
