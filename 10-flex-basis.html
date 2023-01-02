@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/10-basis.css">
+    <title>Flex-basis</title>
+</head>
+<body>
+    <main class="assunto-items">
+        <h1>Flex-basis</h1>
+        <p>Propriedade que vai definir o tamanho dos itens, tanto a altura como a largura. Por padrão, vem definido como <mark>auto</mark>, ou seja, vai considerar o width e height declarados.</p>
+        
+        <h4>Flex-basis: auto;</h4>
+        <p class="definicao">Porém, quando <mark>não se declara</mark> um valor para width e height e usa <mark><code>flax-basis: auto;</code></mark> o item vai ficar do tamanho do conteúdo dentro dele. A mesma coisa acontece quando se coloca <mark><code>flex-basis: 0;</code></mark></p>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco basis-auto">1</div>
+            <div class="bloco-2 caract-bloco basis-auto">2</div>
+            <div class="bloco-3 caract-bloco basis-auto">3</div>
+        </div>
+        <h4>Flex-basis: 0;</h4>
+        <p class="definicao">A diferença é que esse valor <span>não vai considerar</span> o <mark><code>flex-grow: 1;</code></mark> portanto não terá seu tamanho aumentado, ficando no limite do seu conteúdo, não tendo espaço para além dele, como é o caso do segundo bloco. O primeiro e o segundo bloco apresentam <code>flex-grow: 1;</code> e o terceiro bloco apresenta <code>flex-grow: 2;</code></p>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco basis-zero grow1">1</div>
+            <div class="bloco-2 caract-bloco basis-zero grow1 destaque">123456789101112131415</div>
+            <div class="bloco-3 caract-bloco basis-zero grow2">3</div>
+        </div>
+        <h4>Flex-basis: auto;</h4>
+        <p class="definicao">Com  <code>flex-basis: auto;</code> ele passa a <span>considerar</span> o <mark><code>flex-grow: 1;</code></mark> passando a ter o seu espaço aumentado para além do conteúdo, com o mesmo valor que o bloco 1 (já que ambos apresentam o mesmo valor do flex-grow), já o bloco 3 terá o tamanho aumentando 2x.</p>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco basis-auto grow1">1</div>
+            <div class="bloco-2 caract-bloco basis-auto grow1 destaque">123456789101112131415</div>
+            <div class="bloco-3 caract-bloco basis-auto grow2">3</div>
+        </div>
+        <h4>Flex-basis: 0;</h4>
+        <p class="definicao margin">Com  <mark><code>flex-grow: 0;</code></mark> é possível colocar unidades de medidas no  flex-basis.</p>
+        <code>flex-basis: 50px 100px 200px</code>
+        <div class="container-conteudo espaco">
+            <div class="bloco-1 caract-bloco basis-b1">1</div>
+            <div class="bloco-2 caract-bloco basis-b2">2</div>
+            <div class="bloco-3 caract-bloco basis-b3">3</div>
+        </div>
+        <div class="link"><a href="11-flex.html">Próximo</a></div>
+        <div class="link margin-link2"><a href="0-indice.html">Índice</a></div>
+    </main>
+</body>
+</html>

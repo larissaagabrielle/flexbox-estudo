@@ -1,0 +1,49 @@
+.container-conteudo {
+    column-gap: 5px;
+}
+
+.caract-bloco {
+    width: auto;
+    height: auto;
+}
+
+span {
+    text-decoration: none;
+    background-color: yellow;
+}
+
+p.margin {
+    margin-bottom: 0px;
+}
+
+code {
+    margin-bottom: 30px;
+}
+
+.basis-auto {
+    flex-basis: auto;
+}
+
+.basis-zero {
+    flex-basis: 0;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}
+
+.basis-b1 {
+    flex-basis: 50px;
+}
+
+.basis-b2 {
+    flex-basis: 100px;
+}
+
+.basis-b3 {
+    flex-basis: 200px;
+}
