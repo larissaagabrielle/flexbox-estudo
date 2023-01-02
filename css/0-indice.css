@@ -22,3 +22,12 @@ li > a {
 .link {
     text-align: center;
 }
+
+a:hover {
+    color: rgb(157, 71, 238);
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(63, 63, 63);
+}
