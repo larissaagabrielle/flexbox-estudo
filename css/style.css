@@ -22,11 +22,13 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-.container2 {
     align-items: center;
 }
+
+.container-justify {
+    align-items: stretch;
+    /*Caracteristica somente da pág. justify-content*/
+} 
 
 .assunto-items {
     min-height: 100vh;
