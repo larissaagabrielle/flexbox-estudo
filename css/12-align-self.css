@@ -1,0 +1,35 @@
+.container-conteudo {
+    align-items: center;
+}
+
+.star {
+    align-self: flex-start;
+}
+
+.base {
+    align-self: baseline;
+    font-size: 2rem;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+.container-end {
+    align-items: flex-end;
+}
+
+.center {
+    align-self: center;
+}
+
+.caract-bloco2 {
+    width: 50px;
+    text-align: center;
+    color: rgb(88, 87, 87);
+    border-radius: 5px;
+}
+
+.stretch {
+    align-self: stretch;
+}
